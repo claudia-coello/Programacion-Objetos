@@ -2,7 +2,7 @@ import  java.util.Scanner;
 public class ejercicioWhile {
     public static void main(String[] args) {
         Scanner entrada =new Scanner(System.in);
-
+        System.out.println("Ingrese un dia de la semana(Lunes,Martes,Jueves,Viernes,Sabado;domingo): " + diaSemana);
         String diaSemana = entrada.nextLine():
 
         switch (diaSemana):
