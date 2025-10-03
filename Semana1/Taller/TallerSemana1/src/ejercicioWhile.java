@@ -11,14 +11,14 @@ public class ejercicioWhile {
         System.out.println("Ingrese su clave: ");
         String claveIngresada = entrada.nextLine();
 
-        while (!(usuario.equals(usuarioIngresado) && !(clave.equals(claveIngresada))){
-            System.out.println("Usuario o clave incorrecto. Intentelo nuevamente")
+        while (!(usuario.equals(usuarioIngresado) && !(clave.equals(claveIngresada)))){
+            System.out.println("Usuario o clave incorrecto. Intentelo nuevamente");
 
             System.out.println("Ingrese su usuario: ");
-            String usuarioIngresado = entrada.nextLine();
+            usuarioIngresado = entrada.nextLine();
 
             System.out.println("Ingrese su clave: ");
-            String claveIngresada = entrada.nextLine();
+            claveIngresada = entrada.nextLine();
         }
         System.out.println("Bienvenido");
     }
