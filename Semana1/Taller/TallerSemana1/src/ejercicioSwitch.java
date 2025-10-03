@@ -1,11 +1,11 @@
 import  java.util.Scanner;
-public class ejercicioWhile {
-    public static void main(String[] args) {
+public class Main {
+    public static void ejercicioSwitch(String[] args) {
         Scanner entrada =new Scanner(System.in);
         System.out.println("Ingrese un dia de la semana(Lunes,Martes,Jueves,Viernes,Sabado;domingo): " + diaSemana);
-        String diaSemana = entrada.nextLine():
+        String diaSemana = entrada.nextLine();
 
-        switch (diaSemana):
+        switch (diaSemana){
             case "Lunes":
                 System.out.println("Hoy es: " + diaSemana);
                 break;
@@ -27,9 +27,9 @@ public class ejercicioWhile {
             case "Domingo":
                 System.out.println("Hoy es: " + diaSemana);
                 break;
-            case default:
+            default:
                 System.out.println("Opcion no valida");
                 break;
-
+        }
     }
 }
