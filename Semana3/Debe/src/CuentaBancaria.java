@@ -1,3 +1,15 @@
+/*Trabajas en un sistema bancario. El cliente tiene una CuentaBancaria con saldo y titular. El saldo no se puede modificar directamente, solo mediante depósitos o retiros.
+* Lo que tienes que hacer:
+1. En el main, intenta escribir c.saldo = 500; y observa el error.
+‘saldo' has private access in 'CuentaBancaria'. Es decir, saldo es una clase privada y no puede accederse por el main.
+2. Crea los métodos:
+   - depositar(double monto) → suma al saldo si el monto es positivo.
+   - retirar(double monto) → resta del saldo solo si hay suficiente dinero.
+   - getSaldo() → muestra el saldo actual.
+3. Prueba diferentes casos: depósito válido, retiro válido, y retiro mayor al saldo.
+4. Muestra los resultados.
+* */
+
 public class CuentaBancaria {
     private double saldo = 0;
     private String titular;

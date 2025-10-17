@@ -1,3 +1,20 @@
+/*
+* Atributos del vehículo:
+marca → pública (se puede ver directamente)
+modelo → privada (requiere get y set)
+velocidadMaxima → privada (solo lectura con get)
+codigoSeguridad → privada (solo escritura con set)
+color → privada (tiene get y set, solo acepta 'rojo', 'azul' o 'blanco')
+Lo que tienes que hacer:
+1. Crea la clase Vehiculo con esos atributos.
+2. Define los métodos indicados (get o set según el caso).
+3. En el constructor asigna velocidadMaxima.
+4. En el main:
+ - Muestra qué atributos puedes ver directamente.
+ - Intenta leer codigoSeguridad (debe dar error).
+ - Intenta poner un color no permitido.
+ - Imprime los datos válidos del vehículo.
+ * */
 public class Vehiculo {
     public String marca;
     private String modelo;

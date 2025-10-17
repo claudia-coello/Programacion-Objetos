@@ -14,6 +14,14 @@ public class Main {
         System.out.println(persona.getNombre());*/
 
         //------------------------------Segundo Ejercicio
+        Producto p = new Producto(2, "Papas");
+        p.mostrarInformacion();
+        p.setPrecio(-1);
+        p.setPrecio(10);
+        p.mostrarInformacion();
+        //------------------------------Tercer Ejercicio
+
+
         /*CuentaBancaria c = new CuentaBancaria(200,"Maria");
         c.mostrarSaldoActual();
 
@@ -31,8 +39,8 @@ public class Main {
 
         System.out.println("Saldo final: " + c.getSaldo());*/
 
-        //-------------------------------Tercer Ejercicio
-        Vehiculo v = new Vehiculo("Toyota", "Corolla","rojo");
+        //-------------------------------Cuarto Ejercicio
+        /*Vehiculo v = new Vehiculo("Toyota", "Corolla","rojo");
 
         System.out.println("Marca: " + v.marca);
 
@@ -47,6 +55,6 @@ public class Main {
 
         v.setColor("azul");
 
-        System.out.println("Color: " + v.getColor());
+        System.out.println("Color: " + v.getColor());*/
     }
 }
