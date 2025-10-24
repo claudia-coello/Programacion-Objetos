@@ -1,0 +1,24 @@
+1.-¿Qué diferencia hay entre una función que existe sola y un método dentro de una clase?
+Las funciones son bloques de codigo independientes a la clase u objetos.
+Los metodos solo funcionan dentro del contexto de la clase, a travez de un objeto, normalmente actuan sobre los atributos de la clase.
+
+2.-¿Por qué en Java no se puede ejecutar un método sin crear antes un objeto?
+Los metodos estan intrisicamente relacionados a los objetos y dependen de los atributos.
+Excepto los static, estos pertenecen a la clase general.
+
+3.-¿Cómo se llama correctamente un método de instancia y uno estático?
+Motodo de instancia, esta relacionado con la instancia de un objeto.
+Se lo llama nombreObjeto.nombreMetodo().
+
+Metodo estatico, es un caso especial de metodo, pues pertence a la clase pero no a los objetos.
+Se llama clase.metodoEstatico().
+
+4.-En Java puedes invocar un método desde otro método.? Ejemplo
+Si, es posible y es habitual hacerlo. En este caso basta con llamar al metodo que contiene al otro.
+
+public void saludar() {
+    System.out.println("Hola");
+}
+public void presentar() {
+    System.out.println(saludar() + "Como estas?");
+}
