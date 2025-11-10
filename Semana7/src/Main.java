@@ -1,8 +1,62 @@
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        Auto a1 = new Auto("POO-123","Mazda",2023,"Julian","Rojo",5);
-        Moto m1 = new Moto("POO-124","Thunder",2025,"Andres","Azul",150);
-        Camion c1 = new Camion("POO-125","Hino",2005,"Lucia","Verde",5000);
+        Scanner entrada = new Scanner(System.in);
+        String placa, marca,prop, color;
+        int anio, num_puertas,cilindrada,carga_maxima;
+
+        System.out.println("Ingrese la placa: ");
+        placa = entrada.nextLine();
+        System.out.println("Ingrese la marca: ");
+        marca = entrada.nextLine();
+        System.out.println("Ingrese el año: ");
+        anio = entrada.nextInt();
+        entrada.nextLine();
+        System.out.println("Ingrese su nombre:");
+        prop=entrada.nextLine();
+        System.out.println("Ingrese el color de su vehiculo: ");
+        color=entrada.nextLine();
+        System.out.println("Ingrese el numero de puertas: ");
+        num_puertas=entrada.nextInt();
+        entrada.nextLine();
+
+        Auto a1 = new Auto(placa,marca,anio,prop,color,num_puertas);
+
+        System.out.println("Ingrese la placa: ");
+        placa = entrada.nextLine();
+        System.out.println("Ingrese la marca: ");
+        marca = entrada.nextLine();
+        System.out.println("Ingrese el año: ");
+        anio = entrada.nextInt();
+        entrada.nextLine();
+        System.out.println("Ingrese su nombre:");
+        prop=entrada.nextLine();
+        System.out.println("Ingrese el color de su vehiculo: ");
+        color=entrada.nextLine();
+        System.out.println("Ingrese el cilindraje:");
+        cilindrada=entrada.nextInt();
+        entrada.nextLine();
+
+        Moto m1 = new Moto(placa,marca,anio,prop,color,cilindrada);
+
+        System.out.println("Ingrese la placa: ");
+        placa = entrada.nextLine();
+        System.out.println("Ingrese la marca: ");
+        marca = entrada.nextLine();
+        System.out.println("Ingrese el año: ");
+        anio = entrada.nextInt();
+        entrada.nextLine();
+        System.out.println("Ingrese su nombre:");
+        prop=entrada.nextLine();
+        System.out.println("Ingrese el color de su vehiculo: ");
+        color=entrada.nextLine();
+        System.out.println("Ingrese la carga maxima: ");
+        carga_maxima= entrada.nextInt();
+        entrada.nextLine();
+
+        Camion c1 = new Camion(placa,marca,anio,prop,color,carga_maxima);
+
+
         System.out.println("Auto");
         a1.tocar_bocina();
         a1.apagar();
