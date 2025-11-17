@@ -80,3 +80,33 @@ Indicaciones
 ![img_5.png](img_5.png)
 ![img_6.png](img_6.png)
 ![img_7.png](img_7.png)
+
+EJERCICIO #2
+Sistema de Registro de Olimpiadas
+Desarrolle un programa en Java que permita registrar información básica sobre unas Olimpiadas, sus eventos y los participantes. El objetivo es aplicar conceptos fundamentales de la Programación Orientada a Objetos, tales como clases, herencia, polimorfismo, manejo de listas (ArrayList) y
+excepciones personalizadas.
+Objetivo General
+Modelar un sistema UML de gestión de Olimpiadas, permitiendo registrar participantes, eventos y la información principal de la olimpiada, utilizando herencia y polimorfismo para distinguir entre los tipos de participantes.
+Requerimientos Generales
+1. Crear una clase abstracta 'Participante' con atributos base y un método abstracto.
+2. Crear clases hijas 'Atleta' y 'Equipo' que hereden de Participante.
+3. Implementar la clase 'Evento' para registrar participantes.
+4. Implementar la clase 'Olimpiada' para almacenar información general y sus eventos.
+5. Aplicar polimorfismo mostrando el tipo de participante mediante sobrescritura de métodos.
+6. Utilizar excepciones personalizadas para validar datos insuficientes o incorrectos.
+7. Gestionar toda la información utilizando listas dinámicas (ArrayList).
+8. Crear un menú principal que permita registrar y consultar información.
+Diagrama UML (Descripción)
+El sistema debe incluir un conjunto de clases que se relacionan mediante herencia y composición. El diagrama UML debe mostrar:
+
+        ◦ Una clase abstracta Participante.
+        ◦ Clases hijas Atleta y Equipo.
+        ◦ La clase Evento, que contiene una lista de participantes.
+        ◦ La clase Olimpiada, que contiene una lista de eventos.
+
+![img_8.png](img_8.png)\n
+![img_9.png](img_9.png)\n
+![img_10.png](img_10.png)\n
+![img_11.png](img_11.png)\n
+![img_12.png](img_12.png)\n
+Subir el Git Hub Readme detalle del trabajo realizado, Enunciado,captura de código y resultados.

@@ -1,6 +1,6 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
-public class Main {
+public class MainPrecios {
     public static void main(String[] args) {
         int opc = 0;
         Scanner entrada = new Scanner(System.in);
