@@ -28,16 +28,26 @@ ESCUELA POLITÉCNICA NACIONAL
 ESCUELA DE FORMACIÓN DE TECNÓLOGOS
 DESARROLLO DE SOFTWARE
 • Registrar juegos de Mario y juegos de carreras
+
 • Mostrar todos los juegos registrados
+
 • Buscar juegos por nombre
+
 • Filtrar por tipo de juego
+
 • Detectar y manejar errores mediante excepciones personalizadas
+
 • Aplicar correctamente polimorfismo al mostrar los detalles de cada juego
+
 3. Diagrama UML completo
 Debe reflejar:
+
 • Herencia
+
 • Clases hijas
+
 • Métodos sobrescritos
+
 • Relaciones entre clases
 
 
@@ -68,8 +78,11 @@ lanzarse cuando se ingrese un precio negativo o una marca vacía.
 tipo Laptop y Telefono, y mostrar la información usando polimorfismo.
 7. Capturar excepciones con try–catch cuando se creen dispositivos con datos inválido
 Evidencia en GitHub
+
 • Carpeta del proyecto
+
 • README que explique el trabajo
+
 • Capturas del código y de la ejecución en consola
 
 <img width="562" height="404" alt="image" src="https://github.com/user-attachments/assets/c5924c56-6f67-4b23-b263-3b7d80e01019" />
