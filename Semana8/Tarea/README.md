@@ -72,3 +72,4 @@ Evidencia en GitHub
 • README que explique el trabajo
 • Capturas del código y de la ejecución en consola
 
+<img width="562" height="404" alt="image" src="https://github.com/user-attachments/assets/c5924c56-6f67-4b23-b263-3b7d80e01019" />
