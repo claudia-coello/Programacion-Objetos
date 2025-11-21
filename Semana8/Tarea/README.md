@@ -102,3 +102,11 @@ Evidencia en GitHub
 • Capturas del código y de la ejecución en consola
 
 <img width="562" height="404" alt="image" src="https://github.com/user-attachments/assets/c5924c56-6f67-4b23-b263-3b7d80e01019" />
+
+<img width="346" height="507" alt="imagen" src="https://github.com/user-attachments/assets/83bf8371-c669-4b6d-930a-db7a3b90f8c9" />
+
+<img width="325" height="500" alt="imagen" src="https://github.com/user-attachments/assets/f27fa4eb-2ed4-4f4a-b606-e56945828348" />
+
+<img width="304" height="515" alt="imagen" src="https://github.com/user-attachments/assets/af85d3db-39e7-4076-823a-675f3a648a5e" />
+
+<img width="248" height="418" alt="imagen" src="https://github.com/user-attachments/assets/38ce7ad2-6964-4c8b-b426-215cb989b1a1" />
