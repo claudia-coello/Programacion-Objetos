@@ -27,8 +27,9 @@ public abstract class Candidata {
         return id;
     }
 
-    public void setId(int id){
-        this.id = id;
+    public void setId(int id)throws DatoInvalidoException{
+        if (id < 0) throw new DatoInvalidoException("Error. El ID no puede ser negativo");
+        else this.id = id;
     }
 
     public String getNombre() {

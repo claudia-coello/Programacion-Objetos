@@ -100,3 +100,42 @@ Casos Excepcionales(letras, numero fuera de rango y salida)
 ![img.png](img.png)
 
 Opcion 1
+
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
+
+
+Opcion 2
+
+![img_6.png](img_6.png)
+
+![img_7.png](img_7.png)
+
+![img_14.png](img_14.png)
+
+Opcion 3
+
+![img_8.png](img_8.png)
+
+![img_9.png](img_9.png)
+
+Opcion 4
+
+![img_10.png](img_10.png)
+
+![img_11.png](img_11.png)
+
+![img_15.png](img_15.png)
+
+Opcion 5
+
+![img_12.png](img_12.png)
+
+![img_13.png](img_13.png)
+
+![img_16.png](img_16.png)
+
+Opcion 6
+
+![img_17.png](img_17.png)
