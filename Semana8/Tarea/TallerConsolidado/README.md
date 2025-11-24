@@ -95,7 +95,7 @@ Criterios de evaluación sugeridos (rubrica breve)
 
 UML:
 
-![UML.png](../../../../../Descargas/UML.png)
+![UML.png](UML.png)
 
 Prueba menu:
 Casos Excepcionales(letras, numero fuera de rango y salida)
