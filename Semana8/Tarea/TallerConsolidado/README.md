@@ -93,6 +93,9 @@ Criterios de evaluación sugeridos (rubrica breve)
 • Documentación / UML / README (10%).
 • Código limpio / comentarios (10%).
 
+UML:
+
+![UML.png](../../../../../Descargas/UML.png)
 
 Prueba menu:
 Casos Excepcionales(letras, numero fuera de rango y salida)
@@ -120,6 +123,8 @@ Opcion 3
 
 ![img_9.png](img_9.png)
 
+![img_18.png](img_18.png)
+
 Opcion 4
 
 ![img_10.png](img_10.png)
@@ -139,3 +144,5 @@ Opcion 5
 Opcion 6
 
 ![img_17.png](img_17.png)
+
+![img_19.png](img_19.png)

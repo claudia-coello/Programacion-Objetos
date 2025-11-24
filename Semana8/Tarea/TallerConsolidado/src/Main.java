@@ -63,6 +63,7 @@ public class Main {
                     try {
                         int id = 0;
                         boolean valido = false;
+                        int years = 0;
                         do {
                             try {
                                 System.out.print("Ingrese ID: ");
@@ -137,12 +138,18 @@ public class Main {
                             CandidataEstudiante c = new CandidataEstudiante(id, nombre,edad,distrito,puntaje,universidad,carrera);
                             concurso.registrarCandidata(c);
                         }else if(tipoCandidata == 2){
-                            System.out.print("Profesión: "); String prof = sc.nextLine();
-                            System.out.print("Años de experiencia: "); int years = sc.nextInt(); sc.nextLine();
+                            System.out.print("Profesion: "); String prof = sc.nextLine();
+
+                            try {
+                                System.out.print("Anios de experiencia: ");
+                                years = sc.nextInt();
+                                sc.nextLine();
+                            }catch (InputMismatchException e){ System.out.println("Error. Ingrese un numero entero.");}
+
                             CandidataProfesional cp = new CandidataProfesional(id,nombre,edad,distrito,puntaje,prof,years);
                             concurso.registrarCandidata(cp);
                         } else {
-                            System.out.println("Tipo no válido");
+                            System.out.println("Tipo no valido");
                         }
                     }catch (DatoInvalidoException e){ System.out.println(e.getMessage());}
                     break;
