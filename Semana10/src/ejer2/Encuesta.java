@@ -235,7 +235,7 @@ public class Encuesta extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(this, "Resultados:\n" +
                 "Pregunta 1: " + resultadoP1 +
                 "\nPregunta 2: " + resultadoP2 +
-                "\nPregunta 3: " + resultadoP1 );
+                "\nPregunta 3: " + resultadoP3 );
     }
 
     /**
