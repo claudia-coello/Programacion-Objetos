@@ -21,7 +21,14 @@ public class LoginForm extends JFrame{
         btnIngresar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
+                String nombreIngresado = ingresoUsuario.getText().strip();
+                String claveIngresada = ingresoClave.getText();
 
+                if (nombreIngresado.isBlank()) JOptionPane.showMessageDialog(LoginForm.this, "Por favor ingresa tu usuario.", "Error", JOptionPane.ERROR_MESSAGE);
+                else if (claveIngresada.isBlank()) JOptionPane.showMessageDialog(LoginForm.this, "Por favor ingresa tu clave.", "Error", JOptionPane.ERROR_MESSAGE);
+                else{
+                    if (claveIngresada.equals("clave456") && nombreIngresado.equals("cliente123")) JOptionPane.showMessageDialog(LoginForm.this, "Bienvenido " + nombreIngresado);
+                }
             }
         });
     }
