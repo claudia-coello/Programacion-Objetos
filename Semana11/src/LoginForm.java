@@ -15,19 +15,22 @@ public class LoginForm extends JFrame{
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setTitle("Sistema bancario");
         setSize(400,200);
-        setVisible(true);
         setContentPane(panelPrincipal);
         setLocationRelativeTo(null);
+        setVisible(true);
         btnIngresar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 String nombreIngresado = ingresoUsuario.getText().strip();
                 String claveIngresada = ingresoClave.getText();
 
-                if (nombreIngresado.isBlank()) JOptionPane.showMessageDialog(LoginForm.this, "Por favor ingresa tu usuario.", "Error", JOptionPane.ERROR_MESSAGE);
-                else if (claveIngresada.isBlank()) JOptionPane.showMessageDialog(LoginForm.this, "Por favor ingresa tu clave.", "Error", JOptionPane.ERROR_MESSAGE);
+                if (nombreIngresado.isBlank() || claveIngresada.isBlank()) JOptionPane.showMessageDialog(LoginForm.this, "Por favor ingresa tu usuario y clave.", "Error", JOptionPane.ERROR_MESSAGE);
                 else{
-                    if (claveIngresada.equals("clave456") && nombreIngresado.equals("cliente123")) JOptionPane.showMessageDialog(LoginForm.this, "Bienvenido " + nombreIngresado);
+                    if (claveIngresada.equals("clave456") && nombreIngresado.equals("cliente123")) {
+                        JOptionPane.showMessageDialog(LoginForm.this, "Bienvenido " + nombreIngresado);
+                        dispose();
+                    }
+                    else JOptionPane.showMessageDialog(LoginForm.this, "Usuario o clave incorrectos. Por favor intentelo nuevamente.", "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
         });
