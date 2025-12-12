@@ -27,7 +27,7 @@ public class LoginForm extends JFrame{
                 if (nombreIngresado.isBlank() || claveIngresada.isBlank()) JOptionPane.showMessageDialog(LoginForm.this, "Por favor ingresa tu usuario y clave.", "Error", JOptionPane.ERROR_MESSAGE);
                 else{
                     if (claveIngresada.equals("clave456") && nombreIngresado.equals("cliente123")) {
-                        JOptionPane.showMessageDialog(LoginForm.this, "Bienvenido " + nombreIngresado);
+                        new BancoForm(nombreIngresado);
                         dispose();
                     }
                     else JOptionPane.showMessageDialog(LoginForm.this, "Usuario o clave incorrectos. Por favor intentelo nuevamente.", "Error", JOptionPane.ERROR_MESSAGE);
