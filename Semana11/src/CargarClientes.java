@@ -2,12 +2,12 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class database {
+public class CargarClientes {
     String url = "jdbc:mysql://u3zwyyki3i87b4lr:LVsvlV1izQO4TDjBYDcC@b4ouuqhohvqpu841fnxs-mysql.services.clever-cloud.com:3306/b4ouuqhohvqpu841fnxs";
     String user = "u3zwyyki3i87b4lr";
     String password = "LVsvlV1izQO4TDjBYDcC";
 
-    public void datosClientes(){
+    public List<Cliente> datosClientes(){
         List<Cliente> clientes = new ArrayList<>();
 
         try (Connection connection = DriverManager.getConnection(url, user, password)) {
@@ -32,5 +32,6 @@ public class database {
         }catch (SQLException e){
             System.out.println("Error en la conexion" + e.getMessage());
         }
+        return clientes;
     }
 }
