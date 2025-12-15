@@ -2,7 +2,7 @@ import java.sql.*;
 
 public class postgre {
     public static void main(String[] args){
-        String url = "jdbc:postgresql://localhost:5432/almacen";
+        String url = "jdbc:postgresql://localhost:5432/banco";
         String user = "postgres";
         String password = "root";
 
